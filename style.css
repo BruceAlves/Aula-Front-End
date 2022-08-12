@@ -1,0 +1,296 @@
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Black+Ops+One&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;1,100;1,200;1,300&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Press+Start+2P&family=Silkscreen&display=swap');
+
+
+body {
+    margin-top: 0px;
+    background-image: linear-gradient(to right, rgb(0, 0, 0), rgb(0, 160, 214), rgb(185, 25, 25), rgb(0, 107, 248));
+   
+}
+
+#rodape {
+    position: absolute;
+    height: 40px;
+    background-color: rgba(255, 255, 255, 0);
+    margin-top: 10%;
+    margin-left: -5px;
+    width: 1420px;
+}
+
+.cabecalho {
+    position: absolute;
+    height: 60px;
+    background: rgba(255, 255, 255, 0.629);
+    margin-top: -100px;
+    margin-left: -5px;
+    width: 1420px;
+}
+
+head {
+    position: absolute;
+    height: 100px;
+    background-color: rgba(255, 255, 255, 0.629);
+    margin-top: px;
+    margin-left: -5px;
+    width: 1px;
+}
+
+.title {
+    text-align: center;
+    font-size: 35px;
+    border-radius: 15px;
+    width: 30%;
+    color: white;
+    margin-top: 3%;
+    background: linear-gradient(to right, rgb(241, 6, 6), rgb(3, 37, 212));
+    margin-left: 680px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.title1 {
+    position: relative;
+    text-align: center;
+    font-size: 45px;
+    margin-top: px;
+    width: 50%;
+    color: white;
+    margin-left: 19%;
+    font-family: Silkscreen, Helvetica, sans-serif;
+}
+
+.cabecalho2 {
+    display: inline;
+    margin-left: 10px;
+    background-color: rgba(255, 255, 255, 0.793);
+
+}
+
+.cabecalho2 span {
+    width: max-content;
+    margin-left: 160px;
+    position: absolute;
+    background-color: #bb93fc;
+    padding-inline: 10px;
+    opacity: 0;
+    border-radius: 15px;
+    transform-origin: 10% 75%;
+    animation: cabecalho2 12s var(--d) linear infinite;
+
+}
+
+@keyframes cabecalho2 {
+    5% {
+        opacity: 1;
+    }
+
+    10%,
+    20% {
+        opacity: 1;
+        transform: rotate(3deg);
+    }
+
+    15% {
+        transform: rotate(-1deg);
+    }
+
+    25% {
+        opacity: 0;
+        transform: translateY(90px);
+        rotate: (10deg);
+    }
+
+}
+
+.nav {
+    text-align: center;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#spiderman {
+    position: relative;
+    left: 680px;
+    width: 400px;
+    height: 500px;
+    border-radius: 15px;
+    top: -25px;
+    
+}
+
+#aranha {
+    margin-left: -42%;
+    margin-top: -50%;
+}
+
+.circulo {
+    background: url('https://media3.giphy.com/media/vIZFeP5NF6jpBR1pTO/200.webp?cid=ecf05e47tm6scyw9ga0dkqqp5ry8g2n7vt2ry7op48ie9zto&rid=200.webp&ct=g');
+    height: 200px;
+    width: 200px;
+    border-radius: 100px;
+    margin-top: -38%;
+    margin-left: 80%;
+    position: absolute;
+    filter: drop-shadow(0 0 10px black);
+    transition: all 0.3s;
+}
+.circulo2 {
+    background: url('https://c.tenor.com/mQfFftmI_ssAAAAM/venom-movie-venom.gif');
+    height: 200px;
+    width: 200px;
+    border-radius: 100px;
+    margin-top: -20%;
+    margin-left: 80%;
+    position: absolute;
+    filter: drop-shadow(0 0 10px black);
+    transition: all 0.3s;
+}
+
+.circulo:hover{
+
+    filter: drop-shadow(0 0 40px black);
+    
+}
+.circulo2:hover{
+
+    filter: drop-shadow(0 0 40px black);
+    
+}
+
+hr{
+    position:absolute;
+    height: 77%;
+    border: none;
+    width: 300px;
+    margin-left:1090px;
+    margin-top: -100px;
+    border-radius: 15px;
+    background: linear-gradient(to right, rgba(248, 248, 248, 0), rgb(255, 255, 255));
+}
+
+.section {
+    background: linear-gradient(to right, rgb(241, 6, 6), rgba(3, 42, 169, 0));
+    position: absolute;
+    margin-left: 40px;
+    height: 680px;
+    width: 600px;
+    margin-top: -175px;
+    border-radius: 15px;
+    margin-bottom: 30px;
+}
+
+.paragrafo {
+    color: white;
+    margin-left: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10px;
+
+}
+
+.imgMavel {
+    position: relative;
+    width: 350px;
+    border-radius: 15px;
+}
+
+
+.AgoraClick {
+    width: 215px;
+    position: relative;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    top: -30%;
+    font-size: 18px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 15px;
+    height: 25px;
+    margin-left: 1px;
+
+}
+
+h3 {
+    position: relative;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(239, 239, 239);
+    text-align: center;
+    top: -29%;
+    font-size: small;
+    background-color: rgba(238, 155, 0, 0.728);
+    border-radius: 15px;
+    height: 10px;
+
+}
+
+.clickaqui {
+    position: relative;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    top: 80%;
+    font-size: 15px;
+    height: 25px;
+}
+.clickaqui2 {
+    position: relative;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    top: 105%;
+    font-size: 15px;
+    height: 25px;
+}
+
+
+.ClickAranha {
+    width: 255px;
+    position: relative;
+    height: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    top: -20%;
+    left: 54%;
+    font-size: 18px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 15px;
+}
+
+.google {
+    margin-top: 5px;
+    text-decoration: none;
+    width: 27%;
+    height: 20px;
+    text-align: center;
+    position: absolute;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 680px;
+    font-size: 15px;
+    color: rgb(10, 159, 213);
+    background-color: rgb(238, 238, 238);
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgb(29, 109, 248);
+
+}
+
+.Marvel {
+    text-decoration: none;
+    width: 27%;
+    height: 15px;
+    text-align: center;
+    position: absolute;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 680px;
+    margin-top: -10px;
+    font-size: 12px;
+    color: rgb(10, 159, 213);
+    background-color: rgb(238, 238, 238);
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgb(29, 109, 248);
+}
+
+.google:hover {
+    box-shadow: 0 0 40px rgb(29, 109, 248);
+}
+
+.marvel:hover {
+    box-shadow: 0 0 40px rgb(29, 109, 248);
+}
